@@ -11,7 +11,8 @@ It’s a beginner-friendly introduction with interactive examples and explanatio
 
 ## 📺 Demo Preview
 
-[![React Essentials Demo](https://img.youtube.com/vi/-UEtNS4caYk/0.jpg)](https://youtu.be/-UEtNS4caYk)
+[![Watch the video](https://img.shields.io/badge/▶️-Click%20to%20Watch%20Demo-purple?style=for-the-badge&logo=youtube)](https://youtu.be/-UEtNS4caYk)  
+_Replace the above link with your actual screen recording video link._
 
 ---
 

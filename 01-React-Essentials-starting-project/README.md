@@ -11,8 +11,7 @@ It’s a beginner-friendly introduction with interactive examples and explanatio
 
 ## 📺 Demo Preview
 
-[![Watch the video](https://img.shields.io/badge/▶️-Click%20to%20Watch%20Demo-purple?style=for-the-badge&logo=youtube)](https://your-video-link.com)  
-*Replace the above link with your actual screen recording video link.*
+[![React Essentials Demo](https://img.youtube.com/vi/-UEtNS4caYk/0.jpg)](https://youtu.be/-UEtNS4caYk)
 
 ---
 
@@ -28,14 +27,14 @@ It’s a beginner-friendly introduction with interactive examples and explanatio
 
 ## 🛠 Tech Stack
 
-| Technology | Description |
-|------------|-------------|
-| ![React](https://img.shields.io/badge/React-2025-blue?logo=react) | JavaScript library for building user interfaces |
-| ![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow?logo=javascript) | Logic and interactivity |
-| ![JSX](https://img.shields.io/badge/JSX-HTML--in--JS-blueviolet?logo=html5) | HTML-like syntax used in React |
-| ![HTML](https://img.shields.io/badge/HTML-Basic-orange?logo=html5) | Structure of the page |
-| ![CSS](https://img.shields.io/badge/CSS-Styling-blue?logo=css3) | Styling the UI |
-| ![Vite](https://img.shields.io/badge/Vite-Bundler-646cff?logo=vite) | Development build tool for fast refresh & dev server |
+| Technology                                                                        | Description                                          |
+| --------------------------------------------------------------------------------- | ---------------------------------------------------- |
+| ![React](https://img.shields.io/badge/React-2025-blue?logo=react)                 | JavaScript library for building user interfaces      |
+| ![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow?logo=javascript) | Logic and interactivity                              |
+| ![JSX](https://img.shields.io/badge/JSX-HTML--in--JS-blueviolet?logo=html5)       | HTML-like syntax used in React                       |
+| ![HTML](https://img.shields.io/badge/HTML-Basic-orange?logo=html5)                | Structure of the page                                |
+| ![CSS](https://img.shields.io/badge/CSS-Styling-blue?logo=css3)                   | Styling the UI                                       |
+| ![Vite](https://img.shields.io/badge/Vite-Bundler-646cff?logo=vite)               | Development build tool for fast refresh & dev server |
 
 ---
 
@@ -46,3 +45,4 @@ Make sure you have Node.js and npm installed.
 ```bash
 npm install
 npm run dev
+```

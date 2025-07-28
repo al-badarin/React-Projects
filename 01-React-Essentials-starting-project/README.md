@@ -16,7 +16,7 @@ It’s a beginner-friendly introduction with interactive examples and explanatio
 
 ---
 
-## 🧠 What You'll Learn
+## 🧠 What I learned and applied
 
 - 🔹 **Components**: Creating reusable building blocks for the UI
 - 🔹 **JSX**: Writing HTML-like code inside JavaScript

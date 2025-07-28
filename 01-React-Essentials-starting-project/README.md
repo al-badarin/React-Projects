@@ -11,7 +11,7 @@ It’s a beginner-friendly introduction with interactive examples and explanatio
 
 ## 📺 Demo Preview
 
-[![Watch the video](https://img.shields.io/badge/▶️-Click%20to%20Watch%20Demo-purple?style=for-the-badge&logo=youtube)](https://youtu.be/-UEtNS4caYk)  
+[![Watch the video](https://img.shields.io/badge/▶️-Click%20to%20Watch%20Demo-purple?style=for-the-badge&logo=youtube)](https://youtu.be/siUJMD4k7_w)  
 
 ---
 

@@ -29,7 +29,7 @@ export default function Examples() {
       <h2>Examples</h2>
       <menu>
         <TabButton
-          isSelected={selectedTopic === 'component'}
+          isSelected={selectedTopic === 'components'}
           onSelect={() => handleSelect('components')}
         >
           Components

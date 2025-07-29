@@ -1,3 +1,5 @@
+import './Player.css'
+
 export default function Player({ name, symbol }) {
   return (
     <li>

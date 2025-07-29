@@ -1,4 +1,4 @@
-# 🚀 React Projects 2025 – My Complete Course Practice & Progress (incl. Redux & Next.js)
+# 🚀 React Projects 2025 (incl. Redux & Next.js)
 
 This repository is my personal workspace of my ongoing journey to sharpen and deepen my React skills. It contains all my practice projects, exercises, and demos following the course modules.
 

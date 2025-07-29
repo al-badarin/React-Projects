@@ -1,14 +1,11 @@
 # 🚀 React Projects 2025 – My Complete Course Practice & Progress (incl. Redux & Next.js)
 
-This repository is my personal workspace for the Udemy course **“React – The Complete Guide (incl. Redux)”**, taught by Maximilian Schwarzmüller. It contains all my practice projects, exercises, and demos following the course modules.
+This repository is my personal workspace of my ongoing journey to sharpen and deepen my React skills. It contains all my practice projects, exercises, and demos following the course modules.
 
 ---
 
-## 📚 Course Overview
+What I obtained in my React projects:
 
-Master React.js from scratch and become proficient as an advanced React developer. The course is regularly updated for **React 19**, covering the React fundamentals plus modern best practices, animations, routing, server components, and more :contentReference[oaicite:2]{index=2}.
-
-What I learned:
 - Building blocks: **Components**, **JSX**, **Props**, **State**, and React **Hooks**
 - Handling **events**, **lists**, **forms**, **validation**, and **side-effects**
 - Advanced APIs: **Fragments**, **Portals**, **Context API**, **Redux / Redux Toolkit**
@@ -18,24 +15,24 @@ What I learned:
 - Fetching data and asynchronous patterns with **React Query**
 - **Unit testing** and debugging techniques
 - **TypeScript** integration
-- **Auth** and deployed full-stack apps, real-world best practices and patterns :contentReference[oaicite:3]{index=3}
+- **Auth** and deployed full-stack apps, real-world best practices and patterns 
 
 ---
 
 ## 🛠 Technologies & Tools
 
-- ![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow?logo=javascript) Core logic & interactivity  
-- ![TypeScript](https://img.shields.io/badge/TypeScript-optional-blue?logo=typescript) (Used in later modules)  
-- ![React](https://img.shields.io/badge/React-19-blue?logo=react) Library for building UIs  
-- ![JSX](https://img.shields.io/badge/JSX-HTML‐in‐JS-purple) HTML syntax in JS  
-- ![Redux](https://img.shields.io/badge/Redux-Toolkit-purple?logo=redux) State management  
-- ![React Router](https://img.shields.io/badge/React_Router-router-red?logo=reactrouter) Declarative routing  
-- ![Next.js](https://img.shields.io/badge/Next.js-14-black?logo=next.js) Server-side & full-stack React app framework  
-- ![Styled Components](https://img.shields.io/badge/Styled--Components‑CSS‑in‑JS-blueviolet?logo=styled-components) & CSS Modules  
-- ![Tailwind CSS](https://img.shields.io/badge/Tailwind-Typography‑first-teal?logo=tailwindcss) Utility-first CSS (optional)  
-- ![React Query](https://img.shields.io/badge/React_Query-TanStack-orange?logo=tanstack) Data-fetching  
-- ![Framer Motion](https://img.shields.io/badge/Framer_Motion-Animation-purple?logo=framer) Animations  
-- ⚙️ Tools: Vite / CRA, ESLint, Prettier, Axios / Fetch, Git, deployments on Vercel/Netlify  
+- ![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow?logo=javascript) Core logic & interactivity
+- ![TypeScript](https://img.shields.io/badge/TypeScript-optional-blue?logo=typescript) (Used in later modules)
+- ![React](https://img.shields.io/badge/React-19-blue?logo=react) Library for building UIs
+- ![JSX](https://img.shields.io/badge/JSX-HTML‐in‐JS-purple) HTML syntax in JS
+- ![Redux](https://img.shields.io/badge/Redux-Toolkit-purple?logo=redux) State management
+- ![React Router](https://img.shields.io/badge/React_Router-router-red?logo=reactrouter) Declarative routing
+- ![Next.js](https://img.shields.io/badge/Next.js-14-black?logo=next.js) Server-side & full-stack React app framework
+- ![Styled Components](https://img.shields.io/badge/Styled--Components‑CSS‑in‑JS-blueviolet?logo=styled-components) & CSS Modules
+- ![Tailwind CSS](https://img.shields.io/badge/Tailwind-Typography‑first-teal?logo=tailwindcss) Utility-first CSS (optional)
+- ![React Query](https://img.shields.io/badge/React_Query-TanStack-orange?logo=tanstack) Data-fetching
+- ![Framer Motion](https://img.shields.io/badge/Framer_Motion-Animation-purple?logo=framer) Animations
+- ⚙️ Tools: Vite / CRA, ESLint, Prettier, Axios / Fetch, Git, deployments on Vercel/Netlify
 
 ---
 
@@ -72,15 +69,15 @@ This repo reflects the key concepts covered in the course:
 
 ## ⏱ Progress Tracking
 
-| Project                    | Status        | Notes                             |
-|----------------------------|---------------|-----------------------------------|
-| 01-React-Essentials-starting-project        | ✅ Complete   | Learn core React fundamentals     |
-| 02-Tic-Tac-Toe-game-project             | 🔄 In progress | Deep Dive practice                    | 
-<!-- | 03-React-Essentials-practice-project             | 🔄 In progress | Deep Dive practice                    | -->
-<!-- | 04-http-forms              | ⏳ Pending     | Forms, HTTP requests, validation  |
-| ...                        |               |                                   | -->
+| Project                              | Status                               | Notes                         |
+| ------------------------------------ | ------------------------------------ | ----------------------------- | -------------------------------- | --- |
+| 01-React-Essentials-starting-project | ✅ Complete                          | Learn core React fundamentals |
+| 02-Tic-Tac-Toe-game-project          | 🔄 In progress                       | Deep Dive practice            |
+| <!--                                 | 03-React-Essentials-practice-project | 🔄 In progress                | Deep Dive practice               | --> |
+| <!--                                 | 04-http-forms                        | ⏳ Pending                    | Forms, HTTP requests, validation |
+| ...                                  |                                      |                               | -->                              |
 
-(*Update this table as you progress.*)
+(_Update this table as you progress._)
 
 ---
 
@@ -97,5 +94,3 @@ This repo reflects the key concepts covered in the course:
 This is my personal React learning journey. I’m refining the core concepts and building demo apps, ready to put them in my professional portfolio over time.
 
 Thank you for visiting 👋
-
-

@@ -4,7 +4,7 @@ This repository is my personal workspace of my ongoing journey to sharpen and de
 
 ---
 
-What I obtained in my React projects:
+What I am obtaining in my React projects:
 
 - Building blocks: **Components**, **JSX**, **Props**, **State**, and React **Hooks**
 - Handling **events**, **lists**, **forms**, **validation**, and **side-effects**
@@ -15,7 +15,7 @@ What I obtained in my React projects:
 - Fetching data and asynchronous patterns with **React Query**
 - **Unit testing** and debugging techniques
 - **TypeScript** integration
-- **Auth** and deployed full-stack apps, real-world best practices and patterns 
+- **Auth** and deployed full-stack apps, real-world best practices and patterns
 
 ---
 
@@ -36,6 +36,7 @@ What I obtained in my React projects:
 
 ---
 
+<!-- TODO: add projects + deployed links!! -->
 <!-- ## 🚀 Projects Included -->
 
 ## 📌 How to Use This Repo
@@ -47,9 +48,7 @@ What I obtained in my React projects:
 
 ---
 
-## 🎓 What I’m Learning (per module)
-
-This repo reflects the key concepts covered in the course:
+## 🎓 What I've Learned in the Coding Process
 
 - React core: components, JSX, props, state, hooks (`useState`, `useEffect`, custom hooks`)
 - Form handling, validation, controlled components
@@ -76,8 +75,6 @@ This repo reflects the key concepts covered in the course:
 | <!--                                 | 03-React-Essentials-practice-project | 🔄 In progress                | Deep Dive practice               | --> |
 | <!--                                 | 04-http-forms                        | ⏳ Pending                    | Forms, HTTP requests, validation |
 | ...                                  |                                      |                               | -->                              |
-
-(_Update this table as you progress._)
 
 ---
 

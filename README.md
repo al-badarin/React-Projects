@@ -69,15 +69,15 @@ What I am obtaining in my React projects:
 
 ## ⏱ Progress Tracking
 
-| Project                              | Status                               | Notes                         |
-| ------------------------------------ | ------------------------------------ | ----------------------------- | -------------------------------- | --- |
-| 01-React-Essentials-starting-project | ✅ Complete                          | Learn core React fundamentals |
-| 02-Tic-Tac-Toe-game-project          | 🔄 In progress                       | Deep Dive practice            |
-| <!--                                 | 03-React-Essentials-practice-project | 🔄 In progress                | Deep Dive practice               | --> |
-| <!--                                 | 04-http-forms                        | ⏳ Pending                    | Forms, HTTP requests, validation |
-| ...                                  |                                      |                               | -->                              |
+| Project                              | Status         | Notes                         |
+| ------------------------------------ | -------------- | ----------------------------- |
+| 01-React-Essentials-starting-project | ✅ Complete    | Learn core React fundamentals |
+| 02-Tic-Tac-Toe-game-project          | 🔄 In progress | Deep Dive practice            |
 
----
+<!--
+| 03-React-Essentials-practice-project | 🔄 In progress| Deep Dive practice            |
+| 04-http-forms                        | ⏳ Pending    | Forms, HTTP requests, validation |
+-->
 
 ## 🌐 Usage & Contribution
 

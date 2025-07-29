@@ -2,7 +2,7 @@
 
 A simple and visual **React practice project** introducing the core building blocks of modern React development: `Components`, `JSX`, `Props`, and `State`.
 
-This project is part of my [Udemy React Course 2025](https://github.com/al-badarin/UDEMY-React-Course-2025).  
+This project is part of my [React Projects](https://github.com/al-badarin/React-Projects).  
 It’s a beginner-friendly introduction with interactive examples and explanations.
 
 ![React Essentials Screenshot](./preview.png)
@@ -11,7 +11,7 @@ It’s a beginner-friendly introduction with interactive examples and explanatio
 
 ## 📺 Demo Preview
 
-[![Watch the video](https://img.shields.io/badge/▶️-Click%20to%20Watch%20Demo-purple?style=for-the-badge&logo=youtube)](https://youtu.be/siUJMD4k7_w)  
+[![Watch the video](https://img.shields.io/badge/▶️-Click%20to%20Watch%20Demo-purple?style=for-the-badge&logo=youtube)](https://youtu.be/siUJMD4k7_w)
 
 ---
 

@@ -75,8 +75,9 @@ This repo reflects the key concepts covered in the course:
 | Project                    | Status        | Notes                             |
 |----------------------------|---------------|-----------------------------------|
 | 01-React-Essentials-starting-project        | ✅ Complete   | Learn core React fundamentals     |
-| 02-React-Essentials-practice-project             | 🔄 In progress | Deep Dive practice                    |
-<!-- | 03-http-forms              | ⏳ Pending     | Forms, HTTP requests, validation  |
+| 02-Tic-Tac-Toe-game-project             | 🔄 In progress | Deep Dive practice                    | 
+<!-- | 03-React-Essentials-practice-project             | 🔄 In progress | Deep Dive practice                    | -->
+<!-- | 04-http-forms              | ⏳ Pending     | Forms, HTTP requests, validation  |
 | ...                        |               |                                   | -->
 
 (*Update this table as you progress.*)

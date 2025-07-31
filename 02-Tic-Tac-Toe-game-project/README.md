@@ -53,9 +53,8 @@ src/
 ├── index.jsx                # React root entry point
 └── index.css                # Global styles
 
----
-
 ```
+
 ## 🧩 Game Logic Summary
 
 Two players (X & O) take turns clicking grid squares
@@ -79,3 +78,4 @@ Make sure you have **Node.js** and **npm** installed.
 ```bash
 npm install
 npm run dev
+```

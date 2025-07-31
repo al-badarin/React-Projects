@@ -57,7 +57,7 @@ function deriveWinner(gameBoard, players) {
       firstSquareSymbol === secondSquareSymbol &&
       firstSquareSymbol === thirdSquareSymbol
     ) {
-      winner = firstSquareSymbol;
+      winner = players[firstSquareSymbol];
     }
   }
 
@@ -103,13 +103,13 @@ function App() {
             initialName={PLAYERS.X}
             symbol="X"
             isActive={activePlayer === 'X'}
-            onChange={handlePlayerNameChange}
+            onChangeName={handlePlayerNameChange}
           />
           <Player
             initialName={PLAYERS.O}
             symbol="O"
             isActive={activePlayer === 'O'}
-            onChange={handlePlayerNameChange}
+            onChangeName={handlePlayerNameChange}
           />
         </ol>
         {(winner || hasDraw) && <GameOver winner={winner} />}

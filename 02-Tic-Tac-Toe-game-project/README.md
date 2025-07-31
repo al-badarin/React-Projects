@@ -40,20 +40,22 @@ This is part of the [React Projects](https://github.com/al-badarin/React-Project
 
 ## 📁 Project Structure
 
+```txt
 src/
 ├── components/
-│ ├── GameBoard/ # Main 3x3 board rendering
-│ ├── GameOver/ # Game over message + rematch
-│ ├── Log/ # Move log (who played where)
-│ └── Player/ # Player name editor + active highlight
-├── assets/ # Game logo or visuals
-├── App.jsx # Main game logic and composition
-├── winning-combinations.js # Contains winning line logic
-├── index.jsx # React root entry point
-└── index.css # Global styles
+│   ├── GameBoard/           # Main 3x3 board rendering
+│   ├── GameOver/            # Game over message + rematch
+│   ├── Log/                 # Move log (who played where)
+│   └── Player/              # Player name editor + active highlight
+├── assets/                  # Game logo or visuals
+├── App.jsx                  # Main game logic and composition
+├── winning-combinations.js  # Contains winning line logic
+├── index.jsx                # React root entry point
+└── index.css                # Global styles
 
 ---
 
+```
 ## 🧩 Game Logic Summary
 
 Two players (X & O) take turns clicking grid squares

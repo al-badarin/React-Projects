@@ -69,16 +69,12 @@ What I am obtaining in my React projects:
 
 ## ⏱ Progress Tracking
 
-<!-- todo: add GitHub links to the projects in the table
-01 - https://github.com/al-badarin/React-Projects/tree/main/01-React-Essentials-starting-project
-02 - https://github.com/al-badarin/React-Projects/tree/main/02-Tic-Tac-Toe-game-project
--->
+| Project                              | Status       | Notes                         |
+| ------------------------------------ | ------------ | ----------------------------- |
+| [01-React-Essentials-starting-project](https://github.com/al-badarin/React-Projects/tree/main/01-React-Essentials-starting-project) | ✅ Complete  | Learn core React fundamentals |
+| [02-Tic-Tac-Toe-game-project](https://github.com/al-badarin/React-Projects/tree/main/02-Tic-Tac-Toe-game-project)                  | ✅ Complete  | Deep Dive practice            |
+| [03-React-Essentials-practice-project](https://github.com/al-badarin/React-Projects/tree/main/03-React-Essentials-practice-project) | 🔄 In progress | Deep Dive practice            |
 
-| Project                              | Status      | Notes                         |
-| ------------------------------------ | ----------- | ----------------------------- |
-| 01-React-Essentials-starting-project | ✅ Complete | Learn core React fundamentals |
-| 02-Tic-Tac-Toe-game-project          | ✅ Complete | Deep Dive practice            |
-| 03-React-Essentials-practice-project | 🔄 In progress| Deep Dive practice |
 
 <!--| 04-http-forms                        | ⏳ Pending    | Forms, HTTP requests, validation |
 -->

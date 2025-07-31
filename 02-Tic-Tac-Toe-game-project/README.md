@@ -10,18 +10,18 @@ This is part of the [React Projects](https://github.com/al-badarin/React-Project
 
 ## 📺 Demo Preview
 
-[![Watch the video](https://img.shields.io/badge/▶️-Click%20to%20Watch%20Demo-purple?style=for-the-badge&logo=youtube)](https://youtu.be/siUJMD4k7_w)
+[![Watch the video](https://img.shields.io/badge/▶️-Click%20to%20Watch%20Demo-purple?style=for-the-badge&logo=youtube)](https://youtu.be/wKuFAqIzt3g)
 
 ---
 
 ## 🧠 What I learned and applied
 
-- 🔸 **Dynamic Components**: Splitting logic between Player, GameBoard, Log, and GameOver
-- 🔸 **React State Management**: Tracking turns, winners, and game resets
-- 🔸 **Immutability**: Avoiding direct mutations of the game board
-- 🔸 **Derived State**: Using helper functions to compute game logic like active player or winner
-- 🔸 **Controlled Inputs**: Editable player names via input fields
-- 🔸 **Conditional Rendering**: Displaying winner/draw messages dynamically
+- **Dynamic Components**: Splitting logic between Player, GameBoard, Log, and GameOver
+- **React State Management**: Tracking turns, winners, and game resets
+- **Immutability**: Avoiding direct mutations of the game board
+- **Derived State**: Using helper functions to compute game logic like active player or winner
+- **Controlled Inputs**: Editable player names via input fields
+- **Conditional Rendering**: Displaying winner/draw messages dynamically
 
 ---
 

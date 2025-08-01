@@ -6,6 +6,7 @@ import Log from './components/Log/Log';
 import GameOver from './components/GameOver/GameOver';
 
 import { WINNING_COMBINATIONS } from './winning-combinations';
+import ScoreBoard from './components/ScoreBoard/ScoreBoard';
 
 const PLAYERS = {
   X: 'Player 1',
@@ -151,6 +152,12 @@ function App() {
   return (
     <main>
       <div id="game-container">
+        <ScoreBoard
+          players={players}
+          scores={scores}
+          onReset={handleFullReset}
+        />
+        
         <ol id="players" className="highlight-player">
           <Player
             initialName={players.X}
@@ -165,16 +172,6 @@ function App() {
             onChangeName={handlePlayerNameChange}
           />
         </ol>
-
-        <div className="scoreboard">
-          <p>
-            {players.X}'s Wins: {scores.X}
-          </p>
-          <p>
-            {players.O}'s Wins: {scores.O}
-          </p>
-          <button onClick={handleFullReset}>Reset Game & Scores</button>
-        </div>
 
         {(winner || hasDraw) && (
           <GameOver winner={winner} onRestart={handleRestart} />

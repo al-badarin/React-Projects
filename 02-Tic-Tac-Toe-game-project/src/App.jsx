@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 import GameBoard from './components/GameBoard/GameBoard';
 import Player from './components/Player/Player';
@@ -41,39 +41,74 @@ function deriveGameBoard(gameTurns) {
   return gameBoard;
 }
 
-function deriveWinner(gameBoard, players) {
-  let winner;
+// function deriveWinner(gameBoard, players) {
+//   let winner;
 
+//   for (const combination of WINNING_COMBINATIONS) {
+//     const firstSquareSymbol =
+//       gameBoard[combination[0].row][combination[0].column];
+//     const secondSquareSymbol =
+//       gameBoard[combination[1].row][combination[1].column];
+//     const thirdSquareSymbol =
+//       gameBoard[combination[2].row][combination[2].column];
+
+//     if (
+//       firstSquareSymbol &&
+//       firstSquareSymbol === secondSquareSymbol &&
+//       firstSquareSymbol === thirdSquareSymbol
+//     ) {
+//       winner = players[firstSquareSymbol];
+//     }
+//   }
+
+//   return winner;
+// }
+
+function deriveWinner(gameBoard) {
   for (const combination of WINNING_COMBINATIONS) {
-    const firstSquareSymbol =
-      gameBoard[combination[0].row][combination[0].column];
-    const secondSquareSymbol =
-      gameBoard[combination[1].row][combination[1].column];
-    const thirdSquareSymbol =
-      gameBoard[combination[2].row][combination[2].column];
+    const [a, b, c] = combination;
+    const first = gameBoard[a.row][a.column];
+    const second = gameBoard[b.row][b.column];
+    const third = gameBoard[c.row][c.column];
 
-    if (
-      firstSquareSymbol &&
-      firstSquareSymbol === secondSquareSymbol &&
-      firstSquareSymbol === thirdSquareSymbol
-    ) {
-      winner = players[firstSquareSymbol];
+    if (first && first === second && first === third) {
+      return first;
     }
   }
 
-  return winner;
+  return null;
 }
 
 function App() {
-  const [players, setPlayers] = useState(PLAYERS);
+  const [players, setPlayers] = useState(() => {
+    const stored = localStorage.getItem('players');
+    return stored ? JSON.parse(stored) : PLAYERS;
+  });
+
+  const [scores, setScores] = useState(() => {
+    const stored = localStorage.getItem('scores');
+    return stored ? JSON.parse(stored) : { X: 0, O: 0 };
+  });
+
   const [gameTurns, setGameTurns] = useState([]);
 
   const activePlayer = deriveActivePlayer(gameTurns);
   const gameBoard = deriveGameBoard(gameTurns);
-  const winner = deriveWinner(gameBoard, players);
-  const hasDraw = gameTurns.length === 9 && !winner;
+  const winnerSymbol = deriveWinner(gameBoard);
+  const winner = winnerSymbol ? players[winnerSymbol] : null;
+  const hasDraw = gameTurns.length === 9 && !winnerSymbol;
+
+  useEffect(() => {
+    localStorage.setItem('players', JSON.stringify(players));
+  }, [players]);
+
+  useEffect(() => {
+    localStorage.setItem('scores', JSON.stringify(scores));
+  }, [scores]);
 
   function handleSelectSquare(rowIndex, colIndex) {
+    if (winnerSymbol || hasDraw) return;
+
     setGameTurns((prevTurns) => {
       const currentPlayer = deriveActivePlayer(prevTurns);
 
@@ -96,7 +131,21 @@ function App() {
   }
 
   function handleRestart() {
+    if (winnerSymbol) {
+      setScores((prev) => ({
+        ...prev,
+        [winnerSymbol]: prev[winnerSymbol] + 1,
+      }));
+    }
     setGameTurns([]);
+  }
+
+  function handleFullReset() {
+    setGameTurns([]);
+    setScores({ X: 0, O: 0 });
+    setPlayers(PLAYERS);
+    localStorage.removeItem('scores');
+    localStorage.removeItem('players');
   }
 
   return (
@@ -104,21 +153,33 @@ function App() {
       <div id="game-container">
         <ol id="players" className="highlight-player">
           <Player
-            initialName={PLAYERS.X}
+            initialName={players.X}
             symbol="X"
             isActive={activePlayer === 'X'}
             onChangeName={handlePlayerNameChange}
           />
           <Player
-            initialName={PLAYERS.O}
+            initialName={players.O}
             symbol="O"
             isActive={activePlayer === 'O'}
             onChangeName={handlePlayerNameChange}
           />
         </ol>
+
+        <div className="scoreboard">
+          <p>
+            {players.X}'s Wins: {scores.X}
+          </p>
+          <p>
+            {players.O}'s Wins: {scores.O}
+          </p>
+          <button onClick={handleFullReset}>Reset Game & Scores</button>
+        </div>
+
         {(winner || hasDraw) && (
           <GameOver winner={winner} onRestart={handleRestart} />
         )}
+
         <GameBoard onSelectSquare={handleSelectSquare} board={gameBoard} />
       </div>
       <Log turns={gameTurns} />

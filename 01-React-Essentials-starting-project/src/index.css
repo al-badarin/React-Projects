@@ -70,3 +70,50 @@ main h2 {
   color: #ebe7ef;
 }
 
+/* Responsive Styles */
+@media (max-width: 768px) {
+  #core-concepts ul {
+    gap: 1.5rem;
+  }
+
+  #core-concepts li {
+    width: 8rem;
+  }
+
+  #examples menu button {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.95rem;
+  }
+
+  #tab-content code {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+  html {
+    font-size: 14px;
+  }
+
+  #core-concepts li {
+    width: 100%;
+  }
+
+  #examples menu {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  #examples menu button {
+    width: 100%;
+    text-align: center;
+  }
+
+  #tab-content {
+    padding: 0.75rem;
+  }
+
+  #tab-content code {
+    font-size: 0.9rem;
+  }
+}

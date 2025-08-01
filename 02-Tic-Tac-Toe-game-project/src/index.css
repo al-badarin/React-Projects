@@ -219,8 +219,18 @@ ol {
   }
 
   #players {
+    display: flex;
     flex-direction: column;
     gap: 1rem;
+  }
+
+  #players li{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .player{
+    text-wrap: nowrap;
   }
 
   .player-name,
@@ -312,6 +322,10 @@ ol {
     margin-left: 0.5rem;
     font-size: 0.9rem;
   }
+
+  #players button{
+    margin-left: 2rem;
+  } 
 }
 
 @media (max-width: 360px) {

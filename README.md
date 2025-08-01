@@ -37,8 +37,16 @@ What I am obtaining in my React projects:
 
 ---
 
-<!-- TODO: add projects + deployed links!! -->
-<!-- ## 🚀 Projects Included -->
+<!-- TODO: add MORE projects + deployed links!! -->
+## 🚀 Projects Included
+
+### 🧩 React Essentials – Core Concepts & UI Rendering
+- 🔗 **Live Preview:** [react-essentials-albadarin.netlify.app](https://react-essentials-albadarin.netlify.app/)
+- 💻 **Source Code:** [GitHub – 01-React-Essentials-starting-project](https://github.com/al-badarin/React-Projects/tree/main/01-React-Essentials-starting-project)
+
+### 🎮 Tic Tac Toe Game – Score Tracking & Persistence
+- 🔗 **Live Game:** [tic-tac-toe-albadarin.netlify.app](https://tic-tac-toe-albadarin.netlify.app/)
+- 💻 **Source Code:** [GitHub – 02-Tic-Tac-Toe-game-project](https://github.com/al-badarin/React-Projects/tree/main/02-Tic-Tac-Toe-game-project)
 
 ## 📌 How to Use This Repo
 

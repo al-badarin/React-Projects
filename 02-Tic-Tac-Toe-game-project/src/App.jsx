@@ -7,6 +7,7 @@ import GameOver from './components/GameOver/GameOver';
 
 import { WINNING_COMBINATIONS } from './winning-combinations';
 import ScoreBoard from './components/ScoreBoard/ScoreBoard';
+import Header from './components/Header/Header';
 
 const PLAYERS = {
   X: 'Player 1',
@@ -151,13 +152,14 @@ function App() {
 
   return (
     <main>
+      <Header/>
       <div id="game-container">
         <ScoreBoard
           players={players}
           scores={scores}
           onReset={handleFullReset}
         />
-        
+
         <ol id="players" className="highlight-player">
           <Player
             initialName={players.X}

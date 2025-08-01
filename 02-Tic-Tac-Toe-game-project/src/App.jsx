@@ -7,7 +7,7 @@ import GameOver from './components/GameOver/GameOver';
 
 import { WINNING_COMBINATIONS } from './winning-combinations';
 import ScoreBoard from './components/ScoreBoard/ScoreBoard';
-import Header from './components/Header/Header';
+// import Header from './components/Header/Header';
 
 const PLAYERS = {
   X: 'Player 1',
@@ -152,7 +152,7 @@ function App() {
 
   return (
     <main>
-      <Header/>
+      {/* <Header/> */}
       <div id="game-container">
         <ScoreBoard
           players={players}

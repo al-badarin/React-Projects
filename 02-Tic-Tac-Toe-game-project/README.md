@@ -16,6 +16,12 @@ Fully responsive across all screen sizes – desktop, tablet, and mobile 📱
 
 ---
 
+## 📺 Demo Preview
+
+[![Watch the video](https://img.shields.io/badge/▶️-Click%20to%20Watch%20Demo-purple?style=for-the-badge&logo=youtube)](https://youtu.be/359xwTNpSu0)
+
+---
+
 ## 🧠 What I learned and applied
 
 - **Dynamic Components**: Splitting logic between Player, GameBoard, Log, GameOver, and ScoreBoard

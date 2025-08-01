@@ -1,4 +1,4 @@
-# 🚀 React Essentials – Core Concepts
+# 🚀 [React Essentials – Core Concepts] (https://react-essentials-albadarin.netlify.app/)
 
 A simple and visual **React practice project** introducing the core building blocks of modern React development: `Components`, `JSX`, `Props`, and `State`.
 
@@ -6,6 +6,14 @@ This project is part of my [React Projects](https://github.com/al-badarin/React-
 It’s a beginner-friendly introduction with interactive examples and explanations.
 
 ![React Essentials Screenshot](./preview.png)
+
+---
+
+## 🌐 Live Demo
+
+[![Netlify](https://img.shields.io/badge/Live%20Site-Click%20Here-brightgreen?style=for-the-badge&logo=netlify)](https://react-essentials-albadarin.netlify.app/)
+
+Fully responsive across all screen sizes – desktop, tablet, and mobile 📱
 
 ---
 

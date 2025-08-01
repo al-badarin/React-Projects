@@ -1,4 +1,4 @@
-# 🎯 Tic-Tac-Toe Game – React Essentials Deep Dive
+# 🎯 [Tic-Tac-Toe Game – React Essentials Deep Dive](https://tic-tac-toe-albadarin.netlify.app/)
 
 A beginner-friendly **React practice project** exploring essential React concepts such as `Components`, `JSX`, `State`, `Props`, and `Conditional Rendering`.
 
@@ -47,6 +47,7 @@ Fully responsive across all screen sizes – desktop, tablet, and mobile 📱
 ```txt
 src/
 ├── components/
+│   ├── Header/  
 │   ├── GameBoard/           # Main 3x3 board rendering
 │   ├── GameOver/            # Game over message + rematch
 │   ├── Log/                 # Move log (who played where)
@@ -91,7 +92,3 @@ Make sure you have **Node.js** and **npm** installed.
 npm install
 npm run dev
 ```
-
----
-
-Happy coding! 🚀

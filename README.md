@@ -48,6 +48,12 @@ What I am obtaining in my React projects:
 - 🔗 **Live Game:** [tic-tac-toe-albadarin.netlify.app](https://tic-tac-toe-albadarin.netlify.app/)
 - 💻 **Source Code:** [GitHub – 02-Tic-Tac-Toe-game-project](https://github.com/al-badarin/React-Projects/tree/main/02-Tic-Tac-Toe-game-project)
 
+### 💰 Investment Calculator - Compound Growth Visualizer
+- 🔗 **Live Preview:** [investment-calculator-albadarin.netlify.app](https://investment-calculator-albadarin.netlify.app/)
+- 💻 **Source Code:** [GitHub – 03-Investment-Calculator](https://github.com/al-badarin/React-Projects/tree/main/03-Investment-Calculator)
+
+---
+
 ## 📌 How to Use This Repo
 
 1. Navigate into any project folder.
@@ -81,7 +87,7 @@ What I am obtaining in my React projects:
 | ------------------------------------ | ------------ | ----------------------------- |
 | [01-React-Essentials-starting-project](https://github.com/al-badarin/React-Projects/tree/main/01-React-Essentials-starting-project) | ✅ Complete  | Learn core React fundamentals |
 | [02-Tic-Tac-Toe-game-project](https://github.com/al-badarin/React-Projects/tree/main/02-Tic-Tac-Toe-game-project)                  | ✅ Complete  | Deep Dive practice            |
-| [03-React-Essentials-practice-project](https://github.com/al-badarin/React-Projects/tree/main/03-React-Essentials-practice-project) | 🔄 In progress | Deep Dive practice            |
+| [03-Investment-Calculator](https://github.com/al-badarin/React-Projects/tree/main/03-Investment-Calculator) | ✅ Complete | Deep Dive practice            |
 
 
 <!--| 04-http-forms                        | ⏳ Pending    | Forms, HTTP requests, validation |
@@ -94,9 +100,3 @@ What I am obtaining in my React projects:
 - Representing the course content accurately is the highest priority; credits to Maximilian Schwarzmüller and Udemy.
 
 ---
-
-## 🙌 About Me
-
-This is my personal React learning journey. I’m refining the core concepts and building demo apps, ready to put them in my professional portfolio over time.
-
-Thank you for visiting 👋

@@ -1,3 +1,5 @@
+import './TimerChallenge.css';
+
 export default function TimerChallenge({ title, targetTime }) {
   return (
     <section className="challenge">

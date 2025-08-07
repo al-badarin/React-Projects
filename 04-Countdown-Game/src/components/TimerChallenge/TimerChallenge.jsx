@@ -1,7 +1,7 @@
 import { useRef, useState } from 'react';
 
 import './TimerChallenge.css';
-import ResultModal from '../ResultModal/ResultModal';
+import ResultModal from '../ResultModal/ResultModal.jsx';
 
 export default function TimerChallenge({ title, targetTime }) {
   const timer = useRef();

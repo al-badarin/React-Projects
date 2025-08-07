@@ -1,3 +1,5 @@
+import './ResultModal.css';
+
 export default function ResultModal({ result, targetTime }) {
   return (
     <dialog className="result-modal">

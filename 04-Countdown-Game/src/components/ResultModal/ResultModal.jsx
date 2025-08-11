@@ -22,15 +22,7 @@ const ResultModal = forwardRef(function ResultModal(
   });
 
   return createPortal(
-    //todo:
-    // The <dialog> element allows website visitors to close the opened dialog by pressing the ESC (Escape) key on their keyboard.
-
-    // Currently, this will not trigger the onReset function though (unlike closing the dialog with a button click).
-
-    // To make sure that onReset gets triggered when the dialog is closed via the escape key, you should add the built-in onClose prop to the <dialog> element and bind it to the onReset prop value.*/
-
-    //* <dialog ref={dialog} className="result-modal" onClose={onReset}>
-    <dialog ref={dialog} className="result-modal">
+    <dialog ref={dialog} className="result-modal" onClose={onReset}>
       {userLost && <h2>You lost!</h2>}
       {!userLost && <h2>Your Score: {score}</h2>}
       <h2>You {result}</h2>

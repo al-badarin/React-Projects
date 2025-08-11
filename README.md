@@ -92,12 +92,12 @@ What I am obtaining in my React projects:
 
 ## ⏱ Progress Tracking
 
-| Project                              | Status       | Notes                         |
-| ------------------------------------ | ------------ | ----------------------------- |
-| [01-React-Essentials-starting-project](https://github.com/al-badarin/React-Projects/tree/main/01-React-Essentials-starting-project) | ✅ Complete  | Learn core React fundamentals |
-| [02-Tic-Tac-Toe-game-project](https://github.com/al-badarin/React-Projects/tree/main/02-Tic-Tac-Toe-game-project)                  | ✅ Complete  | Deep Dive practice            |
-| [03-Investment-Calculator](https://github.com/al-badarin/React-Projects/tree/main/03-Investment-Calculator) | ✅ Complete | Deep Dive practice            |
-| [04-Countdown-Game](https://github.com/al-badarin/React-Projects/tree/main/04-Countdown-Game) | ✅ Complete | Reflex challenge game         |
+| Project                                                                                                                             | Status      | Notes                         |
+| ----------------------------------------------------------------------------------------------------------------------------------- | ----------- | ----------------------------- |
+| [01-React-Essentials-starting-project](https://github.com/al-badarin/React-Projects/tree/main/01-React-Essentials-starting-project) | ✅ Complete | Learn core React fundamentals |
+| [02-Tic-Tac-Toe-game-project](https://github.com/al-badarin/React-Projects/tree/main/02-Tic-Tac-Toe-game-project)                   | ✅ Complete | Deep Dive practice            |
+| [03-Investment-Calculator](https://github.com/al-badarin/React-Projects/tree/main/03-Investment-Calculator)                         | ✅ Complete | Deep Dive practice            |
+| [04-Countdown-Game](https://github.com/al-badarin/React-Projects/tree/main/04-Countdown-Game)                                       | ✅ Complete | Reflex challenge game         |
 
 ---
 

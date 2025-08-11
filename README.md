@@ -38,19 +38,28 @@ What I am obtaining in my React projects:
 ---
 
 <!-- TODO: add MORE projects + deployed links!! -->
+
 ## 🚀 Projects Included
 
 ### 🧩 React Essentials – Core Concepts & UI Rendering
+
 - 🔗 **Live Preview:** [react-essentials-albadarin.netlify.app](https://react-essentials-albadarin.netlify.app/)
 - 💻 **Source Code:** [GitHub – 01-React-Essentials-starting-project](https://github.com/al-badarin/React-Projects/tree/main/01-React-Essentials-starting-project)
 
 ### 🎮 Tic Tac Toe Game – Score Tracking & Persistence
+
 - 🔗 **Live Game:** [tic-tac-toe-albadarin.netlify.app](https://tic-tac-toe-albadarin.netlify.app/)
 - 💻 **Source Code:** [GitHub – 02-Tic-Tac-Toe-game-project](https://github.com/al-badarin/React-Projects/tree/main/02-Tic-Tac-Toe-game-project)
 
 ### 💰 Investment Calculator - Compound Growth Visualizer
+
 - 🔗 **Live Preview:** [investment-calculator-albadarin.netlify.app](https://investment-calculator-albadarin.netlify.app/)
 - 💻 **Source Code:** [GitHub – 03-Investment-Calculator](https://github.com/al-badarin/React-Projects/tree/main/03-Investment-Calculator)
+
+### ⏳ Countdown Game – Reflex Challenge
+
+- 🔗 **Live Game:** [countdown-game-albadarin.netlify.app](https://countdown-game-albadarin.netlify.app/)
+- 💻 **Source Code:** [GitHub – 04-Countdown-Game](https://github.com/al-badarin/React-Projects/tree/main/04-Countdown-Game)
 
 ---
 
@@ -65,7 +74,7 @@ What I am obtaining in my React projects:
 
 ## 🎓 What I've Learned in the Coding Process
 
-- React core: components, JSX, props, state, hooks (`useState`, `useEffect`, custom hooks`)
+- React core: components, JSX, props, state, hooks (`useState`, `useEffect`, `custom hooks`)
 - Form handling, validation, controlled components
 - HTTP communication (fetch, axios), error and loading states
 - Redux Toolkit for global state logic
@@ -88,10 +97,9 @@ What I am obtaining in my React projects:
 | [01-React-Essentials-starting-project](https://github.com/al-badarin/React-Projects/tree/main/01-React-Essentials-starting-project) | ✅ Complete  | Learn core React fundamentals |
 | [02-Tic-Tac-Toe-game-project](https://github.com/al-badarin/React-Projects/tree/main/02-Tic-Tac-Toe-game-project)                  | ✅ Complete  | Deep Dive practice            |
 | [03-Investment-Calculator](https://github.com/al-badarin/React-Projects/tree/main/03-Investment-Calculator) | ✅ Complete | Deep Dive practice            |
+| [04-Countdown-Game](https://github.com/al-badarin/React-Projects/tree/main/04-Countdown-Game) | ✅ Complete | Reflex challenge game         |
 
-
-<!--| 04-http-forms                        | ⏳ Pending    | Forms, HTTP requests, validation |
--->
+---
 
 ## 🌐 Usage & Contribution
 

@@ -3,7 +3,7 @@ import Button from './Button';
 
 export default function NoProjectSelected({ onStartAddProject }) {
   return (
-    <div>
+    <div className="mt-24 text-center w-2/3">
       <img
         src={noProjectImage}
         alt="An empty task list"

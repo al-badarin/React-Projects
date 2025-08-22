@@ -17,7 +17,9 @@ export default function SelectedProject({ project }) {
         </div>
 
         <p className="mb-4 text-stone-400">{formattedDate}</p>
-        <p className="text-stone-600 whitespace-pre-wrap">{project.description}</p>
+        <p className="text-stone-600 whitespace-pre-wrap">
+          {project.description}
+        </p>
       </header>
       //todo:
       <p>TASKS</p>

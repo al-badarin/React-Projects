@@ -4,7 +4,8 @@ A minimal, fast **React + Vite + Tailwind** app to manage projects and their tas
 
 This project is part of the **React Projects** series.
 
-![Project Manager Preview](./preview.png)
+![Project Manager Preview](./preview-1.png)
+![Project Manager Preview](./preview-2.png)
 
 ---
 

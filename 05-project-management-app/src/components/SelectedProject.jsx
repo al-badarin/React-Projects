@@ -12,6 +12,7 @@ export default function SelectedProject({
     month: 'short',
     day: 'numeric',
   });
+
   return (
     <div className="w-[35rem] mt-16">
       <header className="pb-4 mb-4 border-b-2 border-stone-300">
@@ -22,7 +23,7 @@ export default function SelectedProject({
           <button
             onClick={onDelete}
             className="group inline-flex items-center gap-2 rounded-lg border border-red-200 bg-red-50 px-3 py-1.5 text-sm font-medium text-red-700 shadow-sm transition
-hover:bg-red-100 hover:text-red-800 focus:outline-none focus-visible:ring-2 focus-visible:ring-red-500/40 active:scale-[0.99] disabled:opacity-50 disabled:pointer-events-none"
+           hover:bg-red-100 hover:text-red-800 focus:outline-none focus-visible:ring-2 focus-visible:ring-red-500/40 active:scale-[0.99] disabled:opacity-50 disabled:pointer-events-none"
           >
             Delete
           </button>

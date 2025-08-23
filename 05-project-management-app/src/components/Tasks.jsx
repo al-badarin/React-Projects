@@ -19,7 +19,7 @@ export default function Tasks({ tasks, onAdd, onDelete }) {
               <button
                 onClick={() => onDelete(task.id)}
                 className="group inline-flex items-center gap-2 rounded-lg border border-red-200 bg-red-50 px-3 py-1.5 text-sm font-medium text-red-700 shadow-sm transition
-hover:bg-red-100 hover:text-red-800 focus:outline-none focus-visible:ring-2 focus-visible:ring-red-500/40 active:scale-[0.99] disabled:opacity-50 disabled:pointer-events-none"
+              hover:bg-red-100 hover:text-red-800 focus:outline-none focus-visible:ring-2 focus-visible:ring-red-500/40 active:scale-[0.99] disabled:opacity-50 disabled:pointer-events-none"
               >
                 Clear
               </button>

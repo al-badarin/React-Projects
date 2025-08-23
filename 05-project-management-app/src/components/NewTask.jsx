@@ -27,7 +27,7 @@ export default function NewTask({ onAdd }) {
       <button
         onClick={handleClick}
         className="group inline-flex items-center gap-2 rounded-lg border border-green-200 bg-green-50 px-3 py-1.5 text-sm font-medium text-green-700 shadow-sm transition
-hover:bg-green-100 hover:text-green-800 focus:outline-none focus-visible:ring-2 focus-visible:ring-green-500/40 active:scale-[0.99] disabled:opacity-50 disabled:pointer-events-none"
+      hover:bg-green-100 hover:text-green-800 focus:outline-none focus-visible:ring-2 focus-visible:ring-green-500/40 active:scale-[0.99] disabled:opacity-50 disabled:pointer-events-none"
               >
         Add Task
       </button>

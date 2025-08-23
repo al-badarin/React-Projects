@@ -28,8 +28,13 @@ function App() {
     });
   }
 
-  function handleDeleteTask() {
-    //todo
+  function handleDeleteTask(id) {
+    setProjectsState((prevState) => {
+      return {
+        ...prevState,
+        tasks: prevState.tasks.filter((task) => task.id !== id),
+      };
+    });
   }
 
   function handleSelectProject(id) {

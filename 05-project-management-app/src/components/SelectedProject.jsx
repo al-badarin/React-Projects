@@ -29,7 +29,7 @@ export default function SelectedProject({
           </button>
         </div>
 
-        <p className="mb-4 text-stone-400">{formattedDate}</p>
+        <p className="mb-4 text-stone-400">{formattedDate || 'No due date'}</p>
         <p className="text-stone-600 ">{project.description}</p>
       </header>
       <Tasks onAdd={onAddTask} onDelete={onDeleteTask} tasks={tasks} />

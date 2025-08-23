@@ -17,12 +17,6 @@ Fully responsive across desktop, tablet, and mobile 📱
 
 ---
 
-## 💻 Source Code
-
-[![GitHub](https://img.shields.io/badge/Source-GitHub-black?style=for-the-badge&logo=github)](https://github.com/al-badarin/React-Projects/tree/main/05-project-management-app)
-
----
-
 ## 📺 Demo Preview
 
 [![Watch the video](https://img.shields.io/badge/▶%EF%B8%8F-Click%20to%20Watch%20Demo-purple?style=for-the-badge&logo=youtube)](https://youtu.be/e5zPqO4NAXU)
@@ -132,4 +126,3 @@ npm run preview
 > Requires a recent Node.js (LTS) version.
 
 ---
-

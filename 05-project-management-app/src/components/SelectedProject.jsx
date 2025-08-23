@@ -7,7 +7,7 @@ export default function SelectedProject({
   onDeleteTask,
   tasks,
 }) {
-  const formattedDate = new Date(project.dueDate).toLocaleDateString('bg-EU', {
+  const formattedDate = new Date(project.dueDate).toLocaleDateString('en-US', {
     year: 'numeric',
     month: 'short',
     day: 'numeric',

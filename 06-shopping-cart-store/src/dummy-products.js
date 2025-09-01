@@ -1,8 +1,8 @@
 import mochaOvercoat from './assets/mocha-overcoat.jpg';
-import dreamGown from './assets/dream-gown.jpg';
+import navyBlazer from './assets/navyBlazer.jpg';
 import rainJacket from './assets/rain-jacket.jpg';
 import merlotSuit from './assets/merlot-suit.jpg';
-import moonlightDress from './assets/moonlight-dress.jpg';
+import denimJacket from './assets/denimJacket.jpg';
 import denimPioneer from './assets/denim-pioneer.jpg';
 
 export const DUMMY_PRODUCTS = [
@@ -16,13 +16,12 @@ export const DUMMY_PRODUCTS = [
   },
   {
     id: 'p2',
-    image: dreamGown,
-    title: 'Enchanting Blush Dream Gown',
+    image: navyBlazer,
+    title: 'Classic Navy Blazer',
     price: 189.99,
     description:
-      'Bask in the glow of elegance with our Enchanting Blush Dream Gown. Embody the regality of a queen with a sweet touch of pink that whispers enchantment. This is the perfect piece for those seeking to create unforgettable moments.',
+      'Tailored single-breasted blazer in navy. Versatile layer for office to evening; structured shoulders and a clean, modern fit.',
   },
-
   {
     id: 'p3',
     image: rainJacket,
@@ -37,22 +36,22 @@ export const DUMMY_PRODUCTS = [
     title: 'Classic Merlot Business Suit',
     price: 249.99,
     description:
-    'Step into the boardroom with unmatched confidence in our Classic Merlot Business Suit. Exuding an air of refined class and understated power, it is ideal for the modern executive who values tradition and elegance.',
-    },
-    {
+      'Step into the boardroom with unmatched confidence in our Classic Merlot Business Suit. Exuding an air of refined class and understated power, it is ideal for the modern executive who values tradition and elegance.',
+  },
+  {
     id: 'p5',
-    image: moonlightDress,
-    title: 'Ethereal Moonlight Evening Dress',
+    image: denimJacket,
+    title: 'Heritage Denim Jacket',
     price: 159.99,
     description:
-    'Sweep the room off its feet in our Ethereal Moonlight Evening Dress. Crafted to mimic the allure of the moonlight, this dress is a nod to those who appreciate subtle glamour and a standout silhouette.',
-    },
-    {
+      'Timeless mid-wash denim jacket with durable stitching and chest pockets. Easy to style year-round with tees or hoodies.',
+  },
+  {
     id: 'p6',
     image: denimPioneer,
     title: 'Pioneer Rugged Denim Jacket',
     price: 79.99,
     description:
-    'Our Pioneer Rugged Denim Jacket is a tribute to those who embody the spirit of adventure. Designed with durability and comfort in mind, this jacket is a wardrobe essential for the urban explorer.'
-    }
+      'Our Pioneer Rugged Denim Jacket is a tribute to those who embody the spirit of adventure. Designed with durability and comfort in mind, this jacket is a wardrobe essential for the urban explorer.',
+  },
 ];

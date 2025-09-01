@@ -1,4 +1,4 @@
-import { useRef } from 'react';
+import { useRef, useContext } from 'react';
 
 import CartModal from './CartModal.jsx';
 import { CartContext } from '../store/shopping-cart-context.jsx';
@@ -29,8 +29,8 @@ export default function Header() {
       <CartModal ref={modal} title="Your Cart" actions={modalActions} />
       <header id="main-header">
         <div id="main-title">
-          <img src="logo.png" alt="Elegant model" />
-          <h1>Elegant Context</h1>
+          <img src="logo.png" alt="J&C Prime Boutique" />
+          <h1>J&C Prime Boutique</h1>
         </div>
         <p>
           <button onClick={handleOpenCartClick}>Cart ({cartQuantity})</button>

@@ -14,6 +14,15 @@ function App() {
   const [pickedPlaces, setPickedPlaces] = useState([]);
 
   useEffect(() => {
+    const storedIds = JSON.parse(localStorage.getItem('selectedPlaces')) || [];
+    const storedPlaces = storedIds.map((id) =>
+      AVAILABLE_PLACES.find((place) => place.id === id)
+    );
+
+    setPickedPlaces(storedPlaces);
+  }, []);
+
+  useEffect(() => {
     navigator.geolocation.getCurrentPosition((position) => {
       const sortedPlaces = sortPlacesByDistance(
         AVAILABLE_PLACES,

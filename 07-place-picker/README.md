@@ -113,14 +113,16 @@ cd React-Projects/07-place-picker
 npm install
 ```
 
-```bash
 ### 2) Run Dev Server
+
+```bash
 
 npm run dev
 ```
 
-```bash
 ### 3) Build & Preview
+
+```bash
 
 npm run build
 npm run preview

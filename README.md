@@ -68,6 +68,11 @@ What I am obtaining in my React projects:
 - 🔗 **Live App:** [boutique-shopping-cart-albadarin.netlify.app](https://boutique-shopping-cart-albadarin.netlify.app/)
 - 💻 **Source Code:** [GitHub – 06-shopping-cart-store](https://github.com/al-badarin/React-Projects/tree/main/06-shopping-cart-store)
 
+### 📍 Place Picker – Geolocation Sorting & Favorites
+
+- 🔗 **Live App:** [place-picker-albadarin.netlify.app](https://place-picker-albadarin.netlify.app/)
+- 💻 **Source Code:** [GitHub – 07-place-picker](https://github.com/al-badarin/React-Projects/tree/main/07-place-picker)
+
 ---
 
 ## 📌 How to Use This Repo
@@ -99,14 +104,15 @@ What I am obtaining in my React projects:
 
 ## ⏱ Progress Tracking
 
-| Project                                                                                                                             | Status      | Notes                                   |
-| ----------------------------------------------------------------------------------------------------------------------------------- | ----------- | --------------------------------------- |
-| [01-React-Essentials-starting-project](https://github.com/al-badarin/React-Projects/tree/main/01-React-Essentials-starting-project) | ✅ Complete | Learn core React fundamentals           |
-| [02-Tic-Tac-Toe-game-project](https://github.com/al-badarin/React-Projects/tree/main/02-Tic-Tac-Toe-game-project)                   | ✅ Complete | Deep Dive practice                      |
-| [03-Investment-Calculator](https://github.com/al-badarin/React-Projects/tree/main/03-Investment-Calculator)                         | ✅ Complete | Deep Dive practice                      |
-| [04-Countdown-Game](https://github.com/al-badarin/React-Projects/tree/main/04-Countdown-Game)                                       | ✅ Complete | Reflex challenge game                   |
-| [05-project-management-app](https://github.com/al-badarin/React-Projects/tree/main/05-project-management-app)                       | ✅ Complete | Projects & tasks, modal-based forms     |
-| [06-shopping-cart-store](https://github.com/al-badarin/React-Projects/tree/main/06-shopping-cart-store)                             | ✅ Complete | Context cart, portal modal, live totals |
+| Project                                                                                                                             | Status      | Notes                                                      |
+| ----------------------------------------------------------------------------------------------------------------------------------- | ----------- | ---------------------------------------------------------- |
+| [01-React-Essentials-starting-project](https://github.com/al-badarin/React-Projects/tree/main/01-React-Essentials-starting-project) | ✅ Complete | Learn core React fundamentals                              |
+| [02-Tic-Tac-Toe-game-project](https://github.com/al-badarin/React-Projects/tree/main/02-Tic-Tac-Toe-game-project)                   | ✅ Complete | Deep Dive practice                                         |
+| [03-Investment-Calculator](https://github.com/al-badarin/React-Projects/tree/main/03-Investment-Calculator)                         | ✅ Complete | Deep Dive practice                                         |
+| [04-Countdown-Game](https://github.com/al-badarin/React-Projects/tree/main/04-Countdown-Game)                                       | ✅ Complete | Reflex challenge game                                      |
+| [05-project-management-app](https://github.com/al-badarin/React-Projects/tree/main/05-project-management-app)                       | ✅ Complete | Projects & tasks, modal-based forms                        |
+| [06-shopping-cart-store](https://github.com/al-badarin/React-Projects/tree/main/06-shopping-cart-store)                             | ✅ Complete | Context cart, portal modal, live totals                    |
+| [07-place-picker](https://github.com/al-badarin/React-Projects/tree/main/07-place-picker)                                           | ✅ Complete | Geolocation sorting, favorites, portal modal, auto-confirm |
 
 ---
 
